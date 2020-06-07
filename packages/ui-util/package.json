@@ -2,8 +2,6 @@
   "name": "ui-util",
   "version": "1.0.1",
   "description": "> TODO: description",
-  "author": "hardfist <1562502418@qq.com>",
-  "homepage": "https://github.com/hardfist/monorepo-starter#readme",
   "license": "ISC",
   "main": "lib/ui-util.js",
   "directories": {
@@ -18,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hardfist/monorepo-starter.git"
+    "url": "git+https://github.com/sirjaminwong/jamin-monorepo.git.git"
   },
   "scripts": {
     "test": "echo success",
@@ -26,6 +24,6 @@
     "build": "echo success"
   },
   "bugs": {
-    "url": "https://github.com/hardfist/monorepo-starter/issues"
+    "url": "https://github.com/sirjaminwong/jamin-monorepo.git/issues"
   }
 }
