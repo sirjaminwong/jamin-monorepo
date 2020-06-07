@@ -1,6 +1,6 @@
 'use strict';
 
-const uiApp = require('..');
+// const uiApp = require('..');
 
 describe('ui-app', () => {
     it('needs tests');
