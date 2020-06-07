@@ -1,0 +1,19 @@
+{
+  "name": "jamin-monorepo",
+  "version": "1.0.0",
+  "description": "jamin monorepo",
+  "main": "index.js",
+  "author": "jaminst",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run --stream --sort build",
+    "clean": "yarn workspaces run clean",
+    "test": "yarn workspaces run test",
+    "release": "standard-version",
+    "commit": "git-cz",
+    "version": "lerna version --conventional-commits "
+  }
+}
