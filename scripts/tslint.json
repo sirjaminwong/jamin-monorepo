@@ -1,0 +1,59 @@
+{
+  "extends": [
+    "../tslint.json"
+  ],
+  "rules": {
+    "arrow-parens": [
+      false
+    ],
+    "max-classes-per-file": false,
+    "trailing-comma": [
+      true,
+      {
+        "singleline": "ignore",
+        "multiline": "ignore",
+        "esSpecCompliant": true
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "no-console": false,
+    "no-empty": [
+      false,
+      "allow-empty-functions"
+    ],
+    "no-identical-functions": [
+      false
+    ],
+    "cognitive-complexity": [
+      false
+    ],
+    "no-bitwise": [
+      false
+    ],
+    "no-nested-template-literals": [
+      false
+    ],
+    "no-namespace": [
+      false
+    ],
+    "max-union-size": [
+      false
+    ],
+    "no-duplicate-string": [
+      false
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "member-ordering": false,
+    "only-arrow-functions": false
+  }
+}
