@@ -12,6 +12,7 @@
   "scripts": {
     "build": "lerna run --stream --sort build",
     "changed": "lerna changed",
+    "bump": "lerna version",
     "clean": "yarn workspaces run clean",
     "test": "yarn workspaces run test",
     "release": "standard-version",
