@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "jaminst",
   "license": "MIT",
+  "private": "true",
   "workspaces": [
     "packages/*"
   ],
@@ -15,5 +16,8 @@
     "release": "standard-version",
     "commit": "git-cz",
     "version": "lerna version --conventional-commits "
+  },
+  "devDependencies": {
+    "lerna": "^3.22.0"
   }
 }
