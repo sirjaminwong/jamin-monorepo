@@ -1,6 +1,6 @@
 {
   "name": "ui-app",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "> TODO: description",
   "keywords": [],
   "license": "ISC",
@@ -19,6 +19,6 @@
     "clean": "rimraf lib"
   },
   "dependencies": {
-    "ui-lib": "^1.3.2"
+    "ui-lib": "^1.3.3"
   }
 }
