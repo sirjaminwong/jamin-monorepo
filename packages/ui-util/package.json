@@ -11,16 +11,10 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sirjaminwong/jamin-monorepo.git.git"
-  },
+
   "scripts": {
     "test": "echo success",
     "clean": "echo success",
     "build": "echo success"
-  },
-  "bugs": {
-    "url": "https://github.com/sirjaminwong/jamin-monorepo.git/issues"
   }
 }
