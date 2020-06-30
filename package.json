@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "jaminst",
   "license": "MIT",
-  "private": "true",
   "workspaces": [
     "packages/*"
   ],
@@ -13,7 +12,7 @@
     "build": "lerna run --stream --sort build",
     "changed": "lerna changed",
     "bump": "lerna version",
-    "lerna-publish": "lerna publish",
+    "lerna-publish": "lerna publish from-git",
     "clean": "yarn workspaces run clean",
     "test": "yarn workspaces run test",
     "release": "standard-version",
