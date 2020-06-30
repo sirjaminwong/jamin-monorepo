@@ -8,6 +8,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "lerna run --stream --sort build",
     "changed": "lerna changed",
