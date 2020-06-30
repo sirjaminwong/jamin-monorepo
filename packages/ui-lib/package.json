@@ -1,5 +1,5 @@
 {
-  "name": "ui-lib",
+  "name": "jamin-ui-lib",
   "version": "1.3.3",
   "description": "> TODO: description",
   "keywords": [],
@@ -24,5 +24,6 @@
   },
   "dependencies": {
     "ui-utils": "^1.3.2"
-  }
+  },
+  "gitHead": "0e3b7e10fcd3d6eae47814f533caabdc43bea951"
 }
