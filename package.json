@@ -13,7 +13,7 @@
     "build": "lerna run --stream --sort build",
     "changed": "lerna changed",
     "bump": "lerna version",
-    "lerna-publish": "lerna publish from-git",
+    "publish": "lerna publish from-git",
     "clean": "yarn workspaces run clean",
     "test": "yarn workspaces run test",
     "release": "standard-version",
