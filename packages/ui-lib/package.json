@@ -21,5 +21,8 @@
     "build": "tsc",
     "test": "jest",
     "clean": "rimraf lib"
+  },
+  "dependencies": {
+    "jamin-ui-util": "^0.0.1"
   }
 }

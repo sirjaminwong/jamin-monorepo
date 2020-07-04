@@ -1,5 +1,4 @@
 import lodash from "lodash";
-import h   from "util"
 export function add(a: number, b: number) {
   return lodash.add(a,b);
 }
