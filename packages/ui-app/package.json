@@ -3,19 +3,24 @@
   "version": "0.0.1",
   "description": "> TODO: description",
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
+  "module": "lib-es/index.js",
   "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "lib-es"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf lib &&  rm -rf lib-es && tsc --pretty -p ./tsconfig.build.json && tsc --pretty -p ./tsconfig.build.es.json",
     "test": "jest",
     "clean": "rimraf lib"
+  },
+  "dependencies": {
+    "jamin-ui-lib": "^0.0.1"
   }
 }

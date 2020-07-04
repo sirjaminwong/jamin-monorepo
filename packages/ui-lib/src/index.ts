@@ -1,10 +1,8 @@
-import lodash from "lodash";
-export function add(a: number, b: number) {
-  return lodash.add(a,b);
-}
+import {add, multiply} from "lodash";
 
 export function multi(a:number,b:number){
-  return lodash.multiply(a,b);
+  console.log( add(a,b))
+  return multiply(a,b);
 }
 export function divide(a:number, b:number){
   return a/b;

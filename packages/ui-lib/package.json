@@ -3,22 +3,21 @@
   "version": "0.0.1",
   "description": "> TODO: description",
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
+  "module": "lib-es/index.js",
   "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
+  "files": ["lib", "lib-es"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sirjaminwong/jamin-monorepo.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf lib &&  rm -rf lib-es && tsc --pretty -p ./tsconfig.build.json && tsc --pretty -p ./tsconfig.build.es.json",
     "test": "jest",
     "clean": "rimraf lib"
   },

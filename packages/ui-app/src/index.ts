@@ -1,6 +1,7 @@
-import { add } from 'jamin-ui-lib';
+import { multi } from "jamin-ui-lib";
 
-function main(){
-  console.log(add(1,2));
-  console.log('app')
+function main() {
+  console.log(multi(1, 3));
+  console.log("app");
 }
+main();
