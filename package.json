@@ -30,7 +30,6 @@
     "jest": "^26.0.1",
     "lerna": "^3.22.0",
     "lint-staged": "^10.2.9",
-    "loadash": "^1.0.0",
     "standard-version": "^8.0.0",
     "typescript": "^3.9.5"
   },
