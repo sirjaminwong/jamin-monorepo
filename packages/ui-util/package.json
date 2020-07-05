@@ -1,6 +1,6 @@
 {
   "name": "jaminst-ui-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "> TODO: description",
   "license": "MIT",
   "main": "lib/index.js",
