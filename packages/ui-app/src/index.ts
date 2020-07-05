@@ -1,4 +1,4 @@
-import { multi } from "jamin-ui-lib";
+import { multi } from "jaminst-ui-lib";
 
 function main() {
   console.log(multi(1, 3));

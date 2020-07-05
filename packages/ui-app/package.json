@@ -1,9 +1,10 @@
 {
-  "name": "jamin-ui-app",
+  "name": "jaminst-ui-app",
   "version": "0.0.1",
   "description": "> TODO: description",
   "keywords": [],
   "license": "MIT",
+  "private": "true",
   "main": "lib/index.js",
   "module": "lib-es/index.js",
   "types": "lib/index.d.ts",
@@ -21,6 +22,6 @@
     "clean": "rimraf lib"
   },
   "dependencies": {
-    "jamin-ui-lib": "^0.0.1"
+    "jaminst-ui-lib": "^0.0.1"
   }
 }

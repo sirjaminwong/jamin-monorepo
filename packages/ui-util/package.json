@@ -1,5 +1,5 @@
 {
-  "name": "jamin-ui-util",
+  "name": "jaminst-ui-util",
   "version": "0.0.1",
   "description": "> TODO: description",
   "license": "MIT",
@@ -10,10 +10,13 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": ["lib", "lib-es"],
+  "files": [
+    "lib",
+    "lib-es"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sirjaminwong/jamin-monorepo.git"
+    "url": "git+https://github.com/sirjaminwong/jaminst-monorepo.git"
   },
   "scripts": {
     "build": "rm -rf lib &&  rm -rf lib-es && tsc --pretty -p ./tsconfig.build.json && tsc --pretty -p ./tsconfig.build.es.json",
