@@ -14,3 +14,8 @@ export function minus(a: number, b: number) {
 export function foo() {
   console.log("foo");
 }
+
+
+export function hello() {
+  console.log("hello world");
+}
