@@ -1,6 +1,6 @@
 {
   "name": "jaminst-ui-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "> TODO: description",
   "keywords": [],
   "license": "MIT",
@@ -22,6 +22,6 @@
     "clean": "rimraf lib"
   },
   "dependencies": {
-    "jaminst-ui-lib": "^0.1.0"
+    "jaminst-ui-lib": "^0.1.1"
   }
 }
