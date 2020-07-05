@@ -15,7 +15,8 @@
     "bump": "lerna version",
     "publish": "lerna publish from-git",
     "clean": "yarn workspaces run clean",
-    "test": "yarn workspaces run test",
+    "clean all": "rimraf packages/**/lib",
+    "build:cache": "npx ts-node -T scripts/build-all",
     "release": "standard-version",
     "commit": "git-cz",
     "version-conventional": "lerna version --conventional-commits"
@@ -23,8 +24,10 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
+    "@types/chalk": "^2.2.0",
     "@types/jest": "^25.2.3",
     "@types/lodash": "^4.14.157",
+    "chalk": "^4.1.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
     "husky": "^4.2.5",
@@ -45,6 +48,9 @@
     }
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.43.0"
   }
 }
