@@ -6,3 +6,7 @@ function main() {
   console.log(cyan("app"));
 }
 main();
+
+export function bar() {
+  console.log(bar)
+}
